@@ -37,7 +37,7 @@ namespace ClaseAritmetica_3_y_4
                     resultado = restar.Restar(numero1, numero2);
                     Console.WriteLine("La resta de los numeros es {0}",resultado);
                     break;
-
+       
                 case "c":
                     Aritmetica multiplicar = new Aritmetica(numero1, numero2);
                     resultado = multiplicar.Multiplicar(numero1, numero2);

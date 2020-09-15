@@ -10,7 +10,8 @@ namespace ClaseAritmetica_3_y_4
     {
         private double _numero1;
         private double _numero2;
-
+        private double _numero3;
+        private double _numero4;
         public Aritmetica(double _numero1, double _numero2) {
             this._numero1 = _numero1;
             this._numero2 = _numero2;
@@ -20,8 +21,19 @@ namespace ClaseAritmetica_3_y_4
             return _numero1 + _numero2;
         }
 
+        public double Sumar(double _numer1,double _numero2, double _numero3, double _numero4) {
+
+            return _numero1 + _numero2 + _numero3 + _numero4;
+        }
+
         public double Restar(double _numero1, double _numero2) {
             return _numero1 - _numero2;        
+        }
+
+        public double Restar(double _numer1, double _numero2, double _numero3, double _numero4)
+        {
+
+            return _numero1 - _numero2 - _numero3 - _numero4;
         }
 
         public double Multiplicar(double _numero1, double _numero2) {
